@@ -2,7 +2,6 @@ import { Header } from '../components/Header'
 import { Video } from '../components/Video'
 import { SideBar } from '../components/SideBar'
 import { useParams } from 'react-router-dom'
-
 export function Event() {
   const { slug } = useParams<{ slug: string }>()
   return (

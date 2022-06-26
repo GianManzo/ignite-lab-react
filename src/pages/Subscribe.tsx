@@ -1,4 +1,5 @@
-import { gql, useMutation } from '@apollo/client'
+import codeMackup from '../assets/code-mockup.png'
+
 import React, { useState, FormEvent } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Logo } from '../components/Logo'
@@ -72,7 +73,7 @@ export const Subscribe = () => {
           </form>
         </div>
       </div>
-      <img src="/src/assets/code-mockup.png" alt="" className="mt-10" />
+      <img src={codeMackup} alt="" className="mt-10" />
     </div>
   )
 }
