@@ -1,5 +1,6 @@
 <p align="center">
-  <a href="#-tecnologies">Tecnologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  
+  <a href="#-stack">Stack</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-roadmap">Roadmap</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
@@ -9,34 +10,25 @@
 <br>
 
 
-## 🚀 Tecnologies
-
-- React
-- Tailwind CSS
-- Vite
-- Apollo Client
-- GraphQL
-
-Bibliotecas
-
-- [Google Fonts](https://fonts.google.com/)
-- [Phosphor icons](https://phosphoricons.com/)
-
+## ✨ Stack
+-  [ ] React
+-  [ ] Typescript
+-  [ ] Tailwind CSS
+-  [ ] Headless CMS (Content Management System) com graphcms
+-  [ ] @apollo/client and Graphql
+-  [ ] svg2jsx para gerar um componente SVG (https://svg2jsx.com/)
+-  [ ] Phosphor icon family (https://phosphoricons.com/)
+-  [ ] Lib classnames
+-  [ ] graphql-code-generator (https://www.graphql-code-generator.com/docs/getting-startedinstallation
 
 ## 💻 Roadmap
 
-. Use same layout as home page (without form) to shwo on route ´/event` when user don't select any lesson;<br>
-. Protect coming soon lessons;<br>
-. If user try access the /event/lesson/:slug route manually, is redirected to previous route;<br>
-. The lesson card renders a div instead a Link for coming soon lessons.<br>
-. Storage event details on GraphCMS<br>
-. Docker files (docker-compose.yaml and Dockerfile) to run project inside Docker, but in development mode;<br>
-. Implement Loading screens;<br>
-. Make it responsive;<br>
-. Use React Hook Forms with Yup to improve register form validations;<br>
-. ESLint configuration;<br>
-. Add Husky and Lint Staged to run on each commit;<br>
-. Add Commit Lint to follow the guidelines on commit messages;<br>
+From your terminal navigate to the project folder and run:
+
+```cl
+  npm install
+  npm run dev
+```
 
 ## 🔖 Layout
 
@@ -50,4 +42,13 @@ Link acess: https://ignite-lab-react-five.vercel.app
 
 ---
 
-Projeto criado by Rocketseat e desenvolvido by Gian Manzo
+## Contact
+
+
+Follow me on Linkedin, I'm always there.
+
+<a href="https://www.linkedin.com/in/gianmanzo/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="37" height="25" alt="linkedin logo"  />
+  </a>
+
+Project created by Rocketseat and developed by Gian Manzo
